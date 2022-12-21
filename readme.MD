@@ -5,22 +5,22 @@ input:
 
 ```
 {
-		"name": "tablename",
-		"Colums": [
-			{
-				"Name": "index",
-				"Type": "bigint"
-			},
-			{
-				"Name": "email",
-				"Type": "string"
-			},
-			{
-				"Name": "name",
-				"Type": "string"
-			}
-		]
+"name": "tablename",
+"Colums": [
+	{
+		"Name": "index",
+		"Type": "bigint"
+	},
+	{
+		"Name": "email",
+		"Type": "string"
+	},
+	{
+		"Name": "name",
+		"Type": "string"
 	}
+]
+}
 ```
 
 output:
