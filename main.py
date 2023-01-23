@@ -132,7 +132,7 @@ def get_tables_for_database(database):
     return tables
 
 
-tableinfo = get_tables_for_database("edcontrols-dataset-edcontrols-daily-database")
+tableinfo = get_tables_for_database("DATABASE")
 
 for table in tableinfo:
     s = f"""CREATE TABLE {table['name']} ("""
